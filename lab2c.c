@@ -19,7 +19,6 @@ int main () {
  x++;
  }
 
-
  // write code below to store the key in array alp after removing duplicate letters
  for (i=0; i < x; i++)
     if( (found(key, x, key[i]) == 1) && found(alp, x, key[i]) == 0 ){
